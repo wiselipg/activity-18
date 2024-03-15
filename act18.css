@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    padding: 10px;
+    background-image: url(pinkbeach.jpg);
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    cursor: pointer;
+}
+
+#buttonContainer {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px;
+    width: 60%;
+    margin: 10px auto;
+
+}
+
+#timer {
+    background-color: black;
+    color: red;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+#start, #stop, #reset, #lap, #chexkpoint {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: plum;
+    color: rgb(0, 0, 0);
+}
+.container{
+    background-color: rgba(218, 147, 159, 0.5);
+    opacity: 80%;
+    width: auto;
+    height: auto;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    padding: 20px 10px;
+}
